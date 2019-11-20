@@ -1,0 +1,93 @@
+.red {
+	color: red;
+}
+.success {
+	color: green;
+	width:50%;
+	text-align: left;
+	margin: auto;
+}
+.error {
+	color: red;
+	width:50%;
+	text-align: left;
+	margin: auto;
+}
+body {
+	margin: 1em;
+}
+input:focus {
+	background-color: lightblue;
+}
+
+input[type="radio"], input[type="checkbox"],input[type="text"],input[type="submit"], p, label, select, .error, .success {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+img {
+	width:100%;
+}
+form, p, label {
+	width:75%;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 1.4em
+}
+table {
+	table-layout: fixed;
+	width:80%;
+	margin-left: auto;
+    margin-right: auto;
+	border: 10px;
+}
+
+td, tr, th {
+	text-align: left;
+	max-width: 0;
+    text-overflow: string;
+    white-space: nowrap;
+    overflow: hidden;
+}
+tr:hover, td:hover {
+	background-color: #f5f5f5;
+	overflow:visible;
+	position: relative;
+	color: black
+}
+a:hover {
+	background-color: #f5f5f5;
+	overflow:auto;
+	color: blue;
+}
+#more-info {
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+#more-info a {
+	text-decoration: none;
+}
+#more-info a:hover {
+	background-color: #f5f5f5;
+	overflow:auto;
+	color: blue;
+	cursor: text;
+	text-decoration: none;
+}
+.box {
+display:block;
+}
+.box p {
+	display: inline
+}
+.box input[type="text"] {
+	margin-left: 3em;
+}
+.box input[type="submit"], select {
+	margin-left: 3em;
+	margin-top: 3em;
+}
+#nav-bar {
+	float:right;
+}
